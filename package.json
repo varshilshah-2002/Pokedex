@@ -1,5 +1,6 @@
 {
   "name": "pokemon",
+  "homepage": "https://varshilshah-2002.github.io/Home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^5.1.3",
     "framer-motion": "^4.1.17",
+    "gh-pages": "^3.2.3",
     "jsparticles": "^1.17.4",
     "re-cardswipe": "0.0.6",
     "react": "^17.0.2",
@@ -24,6 +26,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
