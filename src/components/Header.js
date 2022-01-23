@@ -1,7 +1,6 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Pokedex from "../assets/images/pokemon.gif";
-import { Container, Row, Col } from "react-bootstrap";
 import "../styles/Header.css";
 
 
@@ -30,7 +29,7 @@ class Header extends React.Component {
   };
 
   openGithub = () => {
-    window.open("https://github.com/s1varam/pokedex");
+    window.open("https://github.com/varshilshah-2002/pokedex");
   };
 
   render() {

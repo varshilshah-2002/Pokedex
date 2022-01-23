@@ -20,6 +20,7 @@ class Filters extends React.Component {
         return (
             <>
                 <div className="filter__container noselect">
+                <div className="divide1">
                     <div className="filter__items">
                         <div>
                             Region
@@ -59,12 +60,15 @@ class Filters extends React.Component {
                             ))}
                         </select>
                     </div>
+                </div>
+                <div className="divide">
                     <div className="filter__items">
                         <label>
                             Search
                         </label>
                         <input type="text" value={this.props.valuesearch} onChange={this.props.searchChange} />
                     </div>
+                </div>
                 </div>
             </>
         )

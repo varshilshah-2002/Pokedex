@@ -7,25 +7,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-
-      <header className="header fixed-top">
-
-        <div className="container">
-
-          <div className="row align-items-center justify-content-between">
-
-            <nav className="nav">
-              <a href="#about" className="navtag">Pokedex</a>
-              <a href="#courses" className="navtag">Trainers</a>
-            </nav>
-
-            <div id="menu-btn" className="fas fa-bars"></div>
-
-          </div>
-
-        </div>
-
-      </header>
+    
       <section className="home" id="home">
 
         <div className="container">
@@ -37,17 +19,13 @@ const Home = () => {
             </div>
 
             <div className="col-md-6 text-md-left">
-              <h3>Welcome to POKEMANIA</h3>
-              <h3>Start your Pokemon Journey Today!!!</h3>
-              <button className="button-82-pushable" role="button">
-                <span className="button-82-shadow"></span>
-                <span className="button-82-edge"></span>
-                <span className="button-82-front text">
-                  <Link to='/pokedex'>
-                    <i class="fas fa-search"></i>    Search For Pokemons
-                  </Link>
-                </span>
+              <h3 className="headerline">Welcome to POKEMANIA</h3>
+              <h3 className="headerline">Start your Pokemon Journey Today!!!</h3>
+              <Link to='/pokedex'>
+              <button class="button-36" role="button">
+                <i class="fas fa-search"></i>        Search For Pokemons
               </button>
+              </Link>
             </div>
 
           </div>

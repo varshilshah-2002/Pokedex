@@ -153,7 +153,7 @@ export default function InfoDialog(props) {
                   <div className="right__box">
                   <div class="wrapper">
                       <div class="link_wrapper">
-                        <a href="app.js" src="">
+                        <a href="/pokedex" src=""className="homebtn">
                           <i class="fas fa-home"></i> Home
                         </a>
                         <div class="icon">

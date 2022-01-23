@@ -10,7 +10,7 @@ function Start() {
       <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route exact path="/F" element={<Footer/>} />
-            <Route exact path="/pokedex" elements={<Pokemon/>}/>
+            <Route exact path="/pokedex" element={<Pokemon/>}/>
         </Routes>
       </BrowserRouter>
   </div>;
