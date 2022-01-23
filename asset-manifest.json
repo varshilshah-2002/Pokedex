@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Pokedex/static/css/main.b023a9e6.chunk.css",
-    "main.js": "/Pokedex/static/js/main.9363dd76.chunk.js",
-    "main.js.map": "/Pokedex/static/js/main.9363dd76.chunk.js.map",
-    "runtime-main.js": "/Pokedex/static/js/runtime-main.6d640634.js",
-    "runtime-main.js.map": "/Pokedex/static/js/runtime-main.6d640634.js.map",
-    "static/css/2.a0e4ba12.chunk.css": "/Pokedex/static/css/2.a0e4ba12.chunk.css",
-    "static/js/2.29bb2863.chunk.js": "/Pokedex/static/js/2.29bb2863.chunk.js",
-    "static/js/2.29bb2863.chunk.js.map": "/Pokedex/static/js/2.29bb2863.chunk.js.map",
-    "index.html": "/Pokedex/index.html",
-    "static/css/2.a0e4ba12.chunk.css.map": "/Pokedex/static/css/2.a0e4ba12.chunk.css.map",
-    "static/css/main.b023a9e6.chunk.css.map": "/Pokedex/static/css/main.b023a9e6.chunk.css.map",
-    "static/js/2.29bb2863.chunk.js.LICENSE.txt": "/Pokedex/static/js/2.29bb2863.chunk.js.LICENSE.txt",
-    "static/media/Pokemon.css": "/Pokedex/static/media/PokemonSolid.5d60be1f.ttf",
-    "static/media/index.css": "/Pokedex/static/media/bg.061ac7e9.jpg",
-    "static/media/InfoDialog.css": "/Pokedex/static/media/angrybirds-regular.323c5195.ttf",
-    "static/media/Header.css": "/Pokedex/static/media/ash.b7f57c93.png",
-    "static/media/style1.css": "/Pokedex/static/media/home-bg.f16fef2d.jpg",
-    "static/media/palkia.bd520162.png": "/Pokedex/static/media/palkia.bd520162.png",
-    "static/media/pokemon.12d3cfba.gif": "/Pokedex/static/media/pokemon.12d3cfba.gif"
+    "main.css": "/Home/static/css/main.35b7080e.chunk.css",
+    "main.js": "/Home/static/js/main.3213979e.chunk.js",
+    "main.js.map": "/Home/static/js/main.3213979e.chunk.js.map",
+    "runtime-main.js": "/Home/static/js/runtime-main.1e9bd413.js",
+    "runtime-main.js.map": "/Home/static/js/runtime-main.1e9bd413.js.map",
+    "static/css/2.a0e4ba12.chunk.css": "/Home/static/css/2.a0e4ba12.chunk.css",
+    "static/js/2.29bb2863.chunk.js": "/Home/static/js/2.29bb2863.chunk.js",
+    "static/js/2.29bb2863.chunk.js.map": "/Home/static/js/2.29bb2863.chunk.js.map",
+    "index.html": "/Home/index.html",
+    "static/css/2.a0e4ba12.chunk.css.map": "/Home/static/css/2.a0e4ba12.chunk.css.map",
+    "static/css/main.35b7080e.chunk.css.map": "/Home/static/css/main.35b7080e.chunk.css.map",
+    "static/js/2.29bb2863.chunk.js.LICENSE.txt": "/Home/static/js/2.29bb2863.chunk.js.LICENSE.txt",
+    "static/media/Pokemon.css": "/Home/static/media/PokemonSolid.5d60be1f.ttf",
+    "static/media/index.css": "/Home/static/media/bg.061ac7e9.jpg",
+    "static/media/InfoDialog.css": "/Home/static/media/angrybirds-regular.323c5195.ttf",
+    "static/media/Header.css": "/Home/static/media/ash.b7f57c93.png",
+    "static/media/style1.css": "/Home/static/media/home-bg.f16fef2d.jpg",
+    "static/media/palkia.bd520162.png": "/Home/static/media/palkia.bd520162.png",
+    "static/media/pokemon.12d3cfba.gif": "/Home/static/media/pokemon.12d3cfba.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d640634.js",
+    "static/js/runtime-main.1e9bd413.js",
     "static/css/2.a0e4ba12.chunk.css",
     "static/js/2.29bb2863.chunk.js",
-    "static/css/main.b023a9e6.chunk.css",
-    "static/js/main.9363dd76.chunk.js"
+    "static/css/main.35b7080e.chunk.css",
+    "static/js/main.3213979e.chunk.js"
   ]
 }
