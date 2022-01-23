@@ -7,7 +7,7 @@ function Start() {
   return <div>
       <BrowserRouter>
       <Routes>
-            <Route exact path="/Home" element={<Home/>} />
+            <Route exact path="/" element={<Home/>} />
             <Route exact path="/pokedex" element={<Pokemon/>}/>
         </Routes>
       </BrowserRouter>

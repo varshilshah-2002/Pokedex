@@ -4,9 +4,10 @@
 
 ## Links
 
- Watch it in action [here](https://pokedex-react-mui.netlify.app/)
+ Watch it in action [here](https://cranky-lichterman-28d3fd.netlify.app/)
 
 ## Features
+- Designed Landing Page using HTML and CSS
 - View basic details of each Pokémon
 - Filter Pokémon based on Region and Type
 - Sort Pokémon by ID/Name
@@ -18,9 +19,6 @@
 
 ## Snapshots
 
-Demo gif
-
-![demo-gif](./public/screenshots/pokedex-demo.gif)
 
 ## Built With
 
@@ -45,9 +43,3 @@ Demo gif
 
 - [Scroll to top](https://juliapottinger.com/react-gatsby-scroll-to-top/)
 - [Beautiful icons of Pokemon types](https://github.com/duiker101/pokemon-type-svg-icons)
-
-##
-
-Contributions, issues and feature requests are always welcome!
-Star the repo if you like this project :)
-
