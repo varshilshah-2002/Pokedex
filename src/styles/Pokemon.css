@@ -81,7 +81,7 @@ html[data-theme=dark] {
 }
 
 h3 {
-  font-family: myFirstFont2;
+  font-family: myFont;
   margin-bottom: 0.2rem;
   color: var(--pokename);
 }
@@ -128,8 +128,8 @@ h3 {
 }
 
 .poke__type__bg>img {
-  width: 20px;
-  height: 20px;
+  width: 20px!important;
+  height: 20px!important;
 }
 
 .poke__type__bg {

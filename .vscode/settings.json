@@ -1,3 +1,14 @@
 {
-    "liveServer.settings.port": 3002
+    "liveServer.settings.port": 3002,
+    "cSpell.words": [
+        "cardborder",
+        "labelledby",
+        "noselect",
+        "pokeball",
+        "Pokedex",
+        "pokelogo",
+        "pokename",
+        "pokenumber",
+        "swich"
+    ]
 }

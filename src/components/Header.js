@@ -3,7 +3,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import Pokedex from "../assets/images/pokemon.gif";
 import "../styles/Header.css";
 
-
 class Header extends React.Component {
   changeTheme = () => {
     // debugger
@@ -35,6 +34,7 @@ class Header extends React.Component {
   render() {
     return (
       <>
+
         <div className="app__header">
           <div className="switch">
             <div className="toggle">

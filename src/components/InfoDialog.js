@@ -12,6 +12,7 @@ import { colorTypeGradients } from "../utils/utils";
 import Tooltip from "@material-ui/core/Tooltip";
 import Zoom from "@material-ui/core/Zoom";
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 const DialogContent = withStyles((theme) => ({
   root: {
@@ -81,7 +82,10 @@ export default function InfoDialog(props) {
               }}
               className="dialog__content"
             >
-              <div className="info__container" style={{ maxHeight: '100vh', maxWidth: '100vw'}}>
+              <div
+                className="info__container"
+                style={{ maxHeight: "100vh", maxWidth: "100vw" }}
+              >
                 <div className="info__container__img">
                   <div className="pokemon__id">
                     #{String(props.number).padStart(4, "0")}
@@ -141,7 +145,6 @@ export default function InfoDialog(props) {
                         props.weight * 0.2205
                       ).toFixed(1)} lbs`}
                     </p>
-
                   </div>
 
                   {/* <div className="gender__container">
@@ -151,11 +154,13 @@ export default function InfoDialog(props) {
                 {/* <hr className="separator"></hr> */}
                 <div className="info__container__data">
                   <div className="right__box">
-                  <div class="wrapper">
+                    <div class="wrapper">
                       <div class="link_wrapper">
-                        <a href="/pokedex" src=""className="homebtn">
-                          <i class="fas fa-home"></i> Home
-                        </a>
+                        <Link to="/">
+                          <button className="button-68" role="button">
+                            <i class="fas fa-home"></i>Home
+                          </button>
+                        </Link>
                         <div class="icon">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

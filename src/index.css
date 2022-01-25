@@ -62,7 +62,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-
+overflow-x: hidden;
 
 }
 
@@ -177,15 +177,16 @@ body {
 
 .filter__container {
   display: flex;
-float: right;
+  float: right;
   flex-direction: column;
   margin: 7vh 0 5vh 0;
   gap: 0 2vw;
+
 }
 
 .filter__items {
   display: flex;
-  font-family: myFirstFont ;
+  font-family: myFont ;
   font-size: 12px;
   flex-wrap: wrap;
   align-content: center;
@@ -296,12 +297,12 @@ select {
 
 .filter__items>div, label {
   /* color: var(--filterHeading); */
-  font-size: xx-large;
+  font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
 	text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
   font-weight: normal;
-  font-family: myFirstFont;
+  font-family: myFont;
   
 }
 
@@ -340,8 +341,8 @@ select{
   background-color: var(--selectBg);
   border: 0.2rem solid var(--selectText);
   border-radius:20px;
-  font-size: 40px;
   outline:none;
+  font-family: myFont;
 }
 select>option{
   padding:0 30px 0 10px;
@@ -362,6 +363,7 @@ select>option{
   box-sizing:border-box;
   overflow:hidden;
   white-space:nowrap;
+  font-family: myFont;
 }
 option:hover {
   background:rgb(202, 192, 192);
@@ -400,8 +402,8 @@ input:checked + label:after {
   top:calc(50% - 2.5px);
   pointer-events:none;
   z-index:3;
-  font-family: myFirstFont;
-  font-size: 25px;
+  font-family: myFont;
+  font-size: 16px;
 }
 
 input:checked + label:before {
@@ -428,8 +430,6 @@ input:checked + label:before {
     gap: 2vh 2vw;
     justify-content: center;
   }
-  select, .filter__items>input{
-    width: 40vw;
-  }
+
   
 }
