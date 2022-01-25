@@ -198,12 +198,14 @@
 .team-img {
   position: relative;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .team-title {
   margin: 30px 0 7px;
   color: #fff;
   font-family: myFirstFont;
+  margin-bottom: 20px;
 }
 
 .overlay {
@@ -347,7 +349,7 @@ nav.stroke ul li a:hover:after {
   display: inline-block;
   flex-direction: row;
   flex-shrink: 0;
-  font-family: Eina01,sans-serif;
+  font-family: myFirstFont;
   font-size: 16px;
   font-weight: 800;
   justify-content: center;
@@ -384,7 +386,7 @@ nav.stroke ul li a:hover:after {
 }
 
 .button-77:before {
-  background-color: rgba(249, 58, 19, .32);
+  background-color: rgba(137, 16, 185, 0.32);
   content: "";
   display: block;
   height: 100%;
@@ -398,7 +400,7 @@ nav.stroke ul li a:hover:after {
 
 .button-77:after {
   background-color: initial;
-  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  background-image: linear-gradient(92.83deg, #b529d1 0, #6c039c33 100%);
   bottom: 4px;
   content: "";
   display: block;
@@ -424,7 +426,7 @@ nav.stroke ul li a:hover:after {
 }
 
 .button-77:active:not(:disabled):after {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #680e8b 0, #9c3dc2 100%);
   bottom: 4px;
   left: 4px;
   right: 4px;

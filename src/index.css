@@ -254,8 +254,8 @@ select {
 
 .switch .toggle-thumb {
   position: absolute;
-  top: 2px;
-  left: 3px;
+  top: 8px;
+  left: 2px;
 }
 
 .switch .toggle-thumb i {
@@ -276,7 +276,7 @@ select {
 
 .switch .toggle-thumb .fa-moon {
   opacity: 1;
-  transform: translateX(-30px);
+  transform: translateX(-15px);
   transition: all 0.55s;
 }
 
@@ -307,9 +307,10 @@ select {
 }
 
 .switch, .github__icon {
-  width: 5vw;
+  width: 90vw;
   margin: 0 6vw;
 }
+
 
 .github__icon:hover {
   cursor: pointer;

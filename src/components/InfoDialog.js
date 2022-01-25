@@ -12,7 +12,6 @@ import { colorTypeGradients } from "../utils/utils";
 import Tooltip from "@material-ui/core/Tooltip";
 import Zoom from "@material-ui/core/Zoom";
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
 
 const DialogContent = withStyles((theme) => ({
   root: {
@@ -20,31 +19,7 @@ const DialogContent = withStyles((theme) => ({
   },
 }))(MuiDialogContent);
 
-// const fetchGenderRate = (genderRate) => {
 
-//     switch (genderRate) {
-//         case 0:
-//             return <div><span class="gender-male">100% <i class="fa fa-mars"></i></span><span> 0% <i class="fa fa-venus"></i></span></div>;
-//         case 1:
-//             return <div><span>87.5% <i class="fa fa-mars"></i></span><span>  12.5% <i class="fa fa-venus"></i></span></div>;
-//         case 2:
-//             return <div><span>75% <i class="fa fa-mars"></i></span><span>  25% <i class="fa fa-venus"></i></span></div>;
-//         case 3:
-//             return <div><span>62.5% <i class="fa fa-mars"></i></span><span>  37.5% <i class="fa fa-venus"></i></span></div>;
-//         case 4:
-//             return <div><span>50% <i class="fa fa-mars"></i></span><span>  50% <i class="fa fa-venus"></i></span></div>;
-//         case 5:
-//             return <div><span>37.5% <i class="fa fa-mars"></i></span><span>  62.5% <i class="fa fa-venus"></i></span></div>;
-//         case 6:
-//             return <div><span>25% <i class="fa fa-mars"></i></span><span>  75% <i class="fa fa-venus"></i></span></div>;
-//         case 7:
-//             return <div><span>12.5% <i class="fa fa-mars"></i></span><span>  87.5% <i class="fa fa-venus"></i></span></div>;
-//         case 8:
-//             return <div><span>0% <i class="fa fa-mars"></i></span><span>  100% <i class="fa fa-venus"></i></span></div>;
-//         default:
-//             return <span>Loading...</span>
-//     }
-// }
 
 export default function InfoDialog(props) {
   let finalColor;
@@ -72,8 +47,8 @@ export default function InfoDialog(props) {
             open={props.open}
             onBackdropClick={props.cancel}
             fullWidth
-            maxWidth="70vw"
-            maxHeight="70vh"
+            maxWidth="100vw"
+            maxHeight="100vh"
             className="dialog__bg noselect"
           >
             <DialogContent
@@ -156,11 +131,9 @@ export default function InfoDialog(props) {
                   <div className="right__box">
                     <div class="wrapper">
                       <div class="link_wrapper">
-                        <Link to="/">
-                          <button className="button-68" role="button">
-                            <i class="fas fa-home"></i>Home
+                          <button className="button-68" role="button" onClick={props.cancel}>
+                            <i class="fas fa-home"></i>Back
                           </button>
-                        </Link>
                         <div class="icon">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

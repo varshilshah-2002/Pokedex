@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Pokedex from "../assets/images/pokemon.gif";
 import "../styles/Header.css";
-
+import {Link} from 'react-router-dom';
 class Header extends React.Component {
   changeTheme = () => {
     // debugger
@@ -28,7 +28,7 @@ class Header extends React.Component {
   };
 
   openGithub = () => {
-    window.open("https://github.com/varshilshah-2002/pokedex");
+    window.open("https://github.com/varshilshah-2002/Pokedex");
   };
 
   render() {
@@ -54,7 +54,9 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="poke__logos noselect">
+            <Link to="/">
             <img src={Pokedex} alt="pokelogo" className="poke__logo" />
+            </Link>
           </div>
           <div className="pokeball__box github__icon" onClick={this.openGithub}>
             <GitHubIcon></GitHubIcon>

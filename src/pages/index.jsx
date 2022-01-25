@@ -92,6 +92,8 @@ const Home = () => {
                   <div className="overlay">
                     <div className="team-details text-center">
                       <h3 className="team-title">
+                      <h3 className="team-title">Ash Ketchum</h3>
+
                         He is a Pokémon Trainer from Pallet Town whose goal is to become a Pokémon Master.In Pokémon the Series: Sun & Moon, he becomes the first Champion of the Alola region's Pokémon League.                    </h3>
                       <div className="socials mt-20">
                         <h3 className="team-title">Orange League Winner.</h3>
@@ -99,8 +101,6 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <h3 className="team-title">Ash Ketchum</h3>
-                <span>Designer</span>
               </div>
             </div>
             <div className="col-md-4 col-sm-6 team-wrap">
@@ -110,6 +110,8 @@ const Home = () => {
                   <div className="overlay">
                     <div className="team-details text-center">
                       <h3 className="team-title">
+                      <h3 className="team-title">Misty</h3>
+
                         She gives the Cascade Badge to Trainers who defeat her in battle. She specializes in Water-type Pokémon.
                       </h3>
                       <div className="socials mt-20">
@@ -118,7 +120,6 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <h3 className="team-title">Misty</h3>
               </div>
             </div>
 
@@ -129,6 +130,8 @@ const Home = () => {
                   <div className="overlay">
                     <div className="team-details text-center">
                       <h3 className="team-title">
+                      <h3 className="team-title">Brock</h3>
+
                         He gives the Boulder Badge to Trainers who defeat him in battle. He specializes in Rock-type Pokémon.
                       </h3>
                       <div className="socials mt-20">
@@ -137,14 +140,12 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <h3 className="team-title">Brock</h3>
               </div>
             </div>
 
           </div>
         </div>
       </section>
-      {footer}
     </>
   );
 };
